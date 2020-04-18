@@ -1,0 +1,115 @@
+body {
+  background-color: #0CAADC !important;
+  padding-bottom: 50px;
+}
+
+nav *,
+.skill {
+  color: #001021 !important;
+}
+
+.info {
+  background-color: #001021;
+  color: #EEEBEB;
+  padding: 100px;
+  text-align: center;
+}
+
+.intro-text {
+  font-family: 'Courier New', Courier, monospace;
+  color: #EF3E36;
+  font-weight: bold;
+}
+
+.btn {
+  color: white !important;
+  background-color: #EF3E36 !important;
+  border: none;
+}
+
+#pronunciation {
+  cursor: help;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.skill {
+  padding: 0 5px;
+}
+
+.skill p {
+  margin-top: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 450px;
+  max-height: 450px;
+}
+
+.carousel-caption {
+  background-color: #EEEBEB;
+  color: #001021;
+  opacity: .5;
+}
+
+a {
+  color: inherit !important;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: solid;
+}
+
+.mobile-image {
+  width: 100%;
+  height: auto;
+}
+
+.view-github {
+  align-self: center;
+}
+
+.project-overview {
+  margin: 25px 0;
+}
+
+.tech {
+  font-weight: bold;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .carousel {
+    display: none;
+  } 
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .carousel {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) { 
+  .mobile-image {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
